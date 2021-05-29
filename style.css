@@ -1,0 +1,31 @@
+h1 {
+    color: brown;
+}
+*{
+    background-color: beige;
+    /* border-solid */
+}
+.Header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.heading2{
+    display: contents;
+    flex-wrap: nowrap;
+    justify-self: auto;
+
+}
